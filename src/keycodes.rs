@@ -60,6 +60,31 @@ pub enum KeyCode {
     CapsLock = 0x38,
     Menu = 0x39,
 
+    // FN controls
+    Up = 0x40,
+    Left = 0x41,
+    Down = 0x42,
+    Right = 0x43,
+    Mute = 0x44,
+    VolUp = 0x45,
+    VolDown = 0x46,
+    F1 = 0x47,
+    F2 = 0x48,
+    F3 = 0x49,
+    F4 = 0x4a,
+    F5 = 0x4b,
+    F6 = 0x4c,
+    F7 = 0x4d,
+    F8 = 0x4e,
+    F9 = 0x4f,
+    F10 = 0x50,
+    F11 = 0x51,
+    F12 = 0x52,
+    Escape = 0x53,
+    Delete = 0x54,
+
+    
+
     Fn = 0xf0,
     LeftShift = 0xf1,
     LeftCtrl = 0xf2,

@@ -10,3 +10,14 @@ pub const N_LAYER_MAP: [[KeyCode; NUM_COLS]; NUM_ROWS] = [
     [Empty, LeftShift, Z, X, C, V, B, N, M, Comma, Period, ForwardSlash, Empty, RightShift, Empty],
     [LeftCtrl, LeftSuper, Empty, LeftAlt, Empty, Empty, Space, Empty, Empty, Empty, RightAlt, Fn, Empty, Menu, RightCtrl],
 ];
+
+
+// TODO: Add more FN Buttons as I add functionality on user end. This may be RGB controls,
+// direct shortcuts on computer, idk, but stuff will be added.
+pub const FN_LAYER_MAP: [[KeyCode; NUM_COLS]; NUM_ROWS] = [
+    [Escape, F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12, Empty, Delete],
+    [Tab, Empty, Q, Up, E, R, T, Y, U, I, O, P, LeftBracket, RightBracket, BackSlash],
+    [CapsLock, Empty, Left, Down, Right, F, G, H, VolDown, VolUp, L, Semicolon, SingleQuote, Enter, Empty],
+    [Empty, LeftShift, Z, X, C, V, B, N, Mute, Comma, Period, ForwardSlash, Empty, RightShift, Empty],
+    [LeftCtrl, LeftSuper, Empty, LeftAlt, Empty, Empty, Space, Empty, Empty, Empty, RightAlt, Fn, Empty, Menu, RightCtrl],
+];

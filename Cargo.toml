@@ -1,0 +1,12 @@
+[package]
+name = "bluetooth-keyboard-firmware"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m-rt = "0.7.3"
+defmt = "0.3.8"
+embassy-nrf = "0.2.0"
+embedded-hal = "1.0.0"
+nrf52832-hal = "0.18.0"
+tree-ds = "0.1.5"

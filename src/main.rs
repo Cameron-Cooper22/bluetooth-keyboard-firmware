@@ -1,10 +1,8 @@
 use cortex_m_rt;
 
-mod gpio;
-mod keycodes;
-mod keymap;
 mod hid;
-
+mod ble;
+mod keyboard;
 fn main() {
     println!("Hello, world!");
 }

@@ -9,5 +9,16 @@ defmt = "0.3.8"
 embassy-nrf = "0.2.0"
 embedded-hal = "1.0.0"
 nrf52832-hal = "0.18.0"
+serde = "1.0.210"
 tree-ds = "0.1.5"
 usb-device = "0.3.2"
+nrf-softdevice = { version = "0.1.0", git = "https://github.com/embassy-rs/nrf-softdevice", rev = "d5f023b", features = [
+    "defmt",
+    "ble-peripheral",
+    "critical-section-impl",
+    "ble-gatt-server",
+    "ble-gatt-client",
+    "ble-central",
+    "ble-sec",
+]}
+embassy-timer = "0.0.0"
